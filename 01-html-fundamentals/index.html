@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Fundamentals - Frontend Web Development</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to HTML Fundamentals</h1>
+            <p>This is a paragraph demonstrating basic HTML structure.</p>
+            
+            <article>
+                <h2>HTML5 Semantic Elements</h2>
+                <p>Semantic elements clearly describe their meaning to both browser and developer.</p>
+            </article>
+        </section>
+
+        <section id="about">
+            <h2>About This Project</h2>
+            <div class="content">
+                <p>This project demonstrates various HTML features:</p>
+                <ul>
+                    <li>Semantic HTML5 elements</li>
+                    <li>Forms and input types</li>
+                    <li>Tables and lists</li>
+                    <li>Multimedia elements</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Frontend Web Development. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+Semantic Elements
+
+<header>, <nav>, <main>, <footer>
+<article>, <section>, <aside>
+<figure>, <figcaption>
+
+Forms and Input
+html
+
+<form>
+    <input type="text" placeholder="Enter text">
+    <input type="email" required>
+    <input type="password">
+    <button type="submit">Submit</button>
+</form>
+
+🏆 Exercises
+
+Create a personal portfolio page
+Build a contact form with validation
+Structure a blog article with semantic HTML
+Create an accessible navigation menu
+
+🔗 Resources
+
+MDN HTML Documentation
+HTML5 Doctor
+W3Schools HTML Tutorial
